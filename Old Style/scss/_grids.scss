@@ -1,0 +1,14 @@
+.column-3 {
+    display: grid;
+    padding: 2vh 0 3vh;
+    margin: 1vh 3vw;
+    grid-template-columns: 1fr;
+    grid-gap: 2vh 2vw;
+    align-items: start;
+}
+
+@media only screen and (min-width: 540px) {
+    .column-3 {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

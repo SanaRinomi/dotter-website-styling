@@ -1,0 +1,41 @@
+.container {
+    margin: 3vh 10vw 0;
+    padding: 3vh 5vw;
+}
+
+.container:not(:last-child) {
+    margin-bottom: 3vh;
+}
+
+#l-logo {
+    min-height: 35vh;
+
+    & > img {
+        width: 75%;
+        height: 75%;
+        object-fit: contain;
+    }
+}
+
+#l-banner {
+    background-color: $background;
+}
+
+#l-main {
+    background-color: $background;
+}
+
+#l-footer {
+    background-color: $background;
+}
+
+@media only screen and (min-width: 540px) {
+    #l-logo {
+        min-height: auto;
+
+        & > img {
+            height: 25%;
+            width: 25%;
+        }
+    }
+}
