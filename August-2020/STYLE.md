@@ -1,4 +1,4 @@
-![Example image](./example)
+![Example image](./example.png)
 
 # Style Guide
 ## All Elements
