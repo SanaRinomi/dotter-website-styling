@@ -27,7 +27,7 @@
 * Max width: 100%
 * Width: 100vw
 * Height: 100vh
-* Background: #C9C4A9
+* Background: #C9BBA9
 
 ## Header
 **Attribute:** #l-header
@@ -46,6 +46,11 @@
 * Left: 0
 * Height: 120px;
 * Background: #4E115C
+* Box shadow:
+    * X,Y: [0,0]
+    * Blur: 5
+    * Opacity: 100%
+    * Colour: #282817
 
 ## Content
 **Attribute:** #l-content
@@ -80,36 +85,37 @@
     * Bottom: 30x
 * Box Shadows:
     * Dark Layer 1:
-        * X,Y: [0,5]
+        * X,Y: [3,5]
         * Blur: 5
         * Opacity: 30%
         * Colour: #171622
     * Dark Layer 2:
-        * X,Y: [3,10]
+        * X,Y: [5,10]
         * Blur: 10
         * Opacity: 20%
         * Colour: #171622
     * Dark Layer 3:
-        * X,Y: [5,20]
+        * X,Y: [10,20]
         * Blur: 20
         * Opacity: 30%
         * Colour: #171622
     * Light Layer 1:
-        * X,Y: [0,-5]
+        * X,Y: [-3,-5]
         * Blur: 5
         * Opacity: 30%
-        * Colour: #F4F3ED
+        * Colour: #F4F2ED
     * Light Layer 2:
-        * X,Y: [-3,-10]
+        * X,Y: [-5,-10]
         * Blur: 10
         * Opacity: 20%
-        * Colour: #F4F3ED
+        * Colour: #F4F2ED
     * Light Layer 3:
-        * X,Y: [-5,-20]
+        * X,Y: [-10,-20]
         * Blur: 20
         * Opacity: 30%
-        * Colour: #F4F3ED
-* Background: #F2F0E5
+        * Colour: #F4F2ED
+* Background: #DBCEBC
+* Border: 1px solid #D7C9B7
 * Border Radius: 15px
 * `> *`:
     * `:not(:last-child)`:
